@@ -1,4 +1,7 @@
 export const signin = async (req, res) => {
+  const { username, email, password } = req.body;
+
+  
   
 };
 
